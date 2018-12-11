@@ -34,6 +34,6 @@ app.get('/', (request, response) => {
 });
 
 
-app.listen(8080, () => {
+app.listen(port, () => {
 	console.log('Server up on port 8080');
 })
